@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body {
+    background: #222222;
+}
+
+#head {
+    display: flex;
+    
+}
+
+.a {
+    position: absolute;
+    font-size: 100px;
+    top: 51%;
+    left: 25%;
+    color: #ffff00;
+    font-weight: bold; 
+}
+
+
+.b {
+    position: absolute;
+    font-size: 100px;
+    top: 2%;               
+    left: 9%;
+    color: #ff9900;
+    font-weight: bold; 
+}
+
+.c {
+    position: absolute;
+    font-size: 100px;
+    top: 36%;
+    left: 1%;
+    color: #ffff00;
+    font-weight: bold; 
+}
+
+
+.d {
+    position: absolute;
+    font-size: 141px;
+    font-weight: bold;
+    color: #fff;
+    top: -5%;
+    left: 4%;
+    text-align: center;
+}
+
+.e {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    top: 68%;
+    left: 50%;
+}
+
+.f {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    top: 88%;
+    left: 79%;
+}
+
+
+
+

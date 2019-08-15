@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+#container {
+    width: 100%;
+}
+
+#up {
+    display: flex;
+    height: 70%;
+}
+
+
+/*-----右拳-----*/
+
+#right-hand {
+    display: flex;
+    position: absolute;
+    top:18%;
+    right: 49%;
+}
+
+.right-gu {
+    object-fit: cover;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    /*left: -22%;
+    top: 20%;*/
+}
+
+.right-choki {
+    object-fit: cover;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+}
+
+.right-pa {    
+    object-fit: cover;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+}
+
+
+
+/*-----左拳-----*/
+
+#left-hand {
+    display: flex;
+    position: absolute;
+    top: 18%;
+    left: -14%;
+}
+
+.left-gu {
+    object-fit: cover;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    /*right: -22%;
+    top: 20%;*/
+}
+
+.left-choki {
+    object-fit: cover;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+}
+
+.left-pa {
+    object-fit: cover;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+}
+
+/*-----蛍-----*/
+
+#up .fire-fly {
+    position: absolute;
+    top: 54%;
+    left: 74%;
+}
+
+/*------ドラえもん等------*/
+
+.jaian {
+    position: absolute;
+    left: 0%;
+}
+
+.nobita {
+    position: absolute;
+    right: 0%;
+}
+/*-----勝ち・負け------*/
+
+#up .hantei {
+    position: absolute;
+    font-size: 160px;
+    top: 5%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+
+}
+
+/*-----反則負け------*/
+
+.komento {
+    position: absolute;
+    width: 400px;
+    height: 318px;
+    top: 44%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+
+    
+}
+
+.komento-3 {
+    position: absolute;
+    top: 12%;
+    left: 61%;
+    font-size: 59px;
+    border: 1px solid #222222;
+    background-color: #ffff00;
+
+
+}
+
+/*-----じゃんけん等吹き出し------*/
+
+#fukidashi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.top-img {
+    position: relative;
+}
+
+.top-word {
+    font-size: 110px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.top-word-3 {
+    font-size: 83px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+}
+
+
+/*-----蛍等吹き出し------*/
+
+
+#fukidashi-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.top-img-2 {
+    position: relative;
+    top: 35px;
+    left: -50px;
+}
+
+.top-word-2 {
+    font-size: 84px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    top: 57%;
+    left: 48%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+/*-----じゃんけんボタン------*/
+
+#janken-panel {
+    display: flex;
+}
+
+#gu_btn {    
+    position: absolute;
+    top: 85%;
+    left: 9%;
+    transform: translate3d(-50%,-50%,0);
+    width: 200px;
+}
+
+#cho_btn {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    width: 200px;
+}
+
+#par_btn {
+    position: absolute;
+    top: 85%;
+    left: 91%;
+    transform: translate3d(-50%,-50%,0);
+    width: 200px;
+}
+
+/*-----慰めコメント-----*/
+
+#down h2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    font-size: 60px;
+    background-color: #fff;
+    border: 4px solid #222222;
+}
+
+/*-----初めからボタン-----*/
+
+#home {
+    position: absolute;
+    top: 5%;
+    left: 78%;
+}
